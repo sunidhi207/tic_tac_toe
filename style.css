@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+}
+h1 {
+  color: #504b38;
+  margin-top: 12px;
+}
+body {
+  background-color: #b9b28a;
+  margin: 0;
+  padding: 0;
+}
+.reset {
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.box:active {
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  position: static;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.newbtn {
+  border-radius: 7px;
+  visibility: hidden;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
